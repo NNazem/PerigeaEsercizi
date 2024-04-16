@@ -8,32 +8,32 @@ public enum DIPENDENTI_CONTRATTO_INDETERMINATO {
     DIPENDENTE_5("marcorossi", "Marco", "Rossi", 18000);
 
 
-    private final String USERNAME;
-    private final String NAME;
-    private final String SURNAME;
-    private final int SALARY;
+    private final String username;
+    private final String name;
+    private final String surname;
+    private final int salary;
 
     private DIPENDENTI_CONTRATTO_INDETERMINATO(String username, String name, String surname, int salary) {
-        this.USERNAME = username;
-        this.NAME = name;
-        this.SURNAME = surname;
-        this.SALARY = salary;
+        this.username = username;
+        this.name = name;
+        this.surname = surname;
+        this.salary = salary;
     }
 
     public String getUsername() {
-        return USERNAME;
+        return username;
     }
 
     public String getName() {
-        return NAME;
+        return name;
     }
 
     public String getSurname() {
-        return SURNAME;
+        return surname;
     }
 
     public int getSalary() {
-        return SALARY;
+        return salary;
     }
 
     public static void main(String[] args) {
