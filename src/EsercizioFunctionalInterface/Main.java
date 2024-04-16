@@ -51,8 +51,5 @@ public class Main {
                 .map(divide)
                 .filter(bothEven)
                 .forEach(printString);
-
-
-
     }
 }
